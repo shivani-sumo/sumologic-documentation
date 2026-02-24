@@ -2401,6 +2401,27 @@ integrations: [
           'integrations/app-development/puppet',
         ],
       },
+      /*
+       {
+        type: 'category',
+        label: 'Big Data',
+        collapsible: true,
+        collapsed: true,
+        link: {type: 'doc', id: 'integrations/bigdata/index'},
+        items: [
+          {
+            type: 'category',
+            label: 'OpenTelemetry',
+            collapsible: true,
+            collapsed: true,
+            link: {type: 'doc', id: 'integrations/bigdata/opentelemetry/index'},
+            items: [
+              'integrations/bigdata/opentelemetry/apache-hadoop-opentelemetry',
+            ],
+          },
+        ],
+      },
+      */
       {
         type: 'category',
         label: 'Containers and Orchestration',
@@ -2785,6 +2806,7 @@ integrations: [
             items: [
               'integrations/web-servers/opentelemetry/apache-opentelemetry',
               'integrations/web-servers/opentelemetry/apache-tomcat-opentelemetry',
+              //'integrations/bigdata/opentelemetry/apache-hadoop-opentelemetry',
               'integrations/web-servers/opentelemetry/haproxy-opentelemetry',
               'integrations/web-servers/opentelemetry/iis-10-opentelemetry',
               'integrations/web-servers/opentelemetry/nginx-opentelemetry',
